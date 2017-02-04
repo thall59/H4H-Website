@@ -1,0 +1,535 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	margin: 0;
+	padding-top:165px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana," sans-serif";
+	line-height: 20px;
+}
+
+.body{
+	
+	
+}
+.div{
+	width: 100%;
+	height:100%;
+	min-width: 1000px;
+	min-height: 1000px;
+}
+
+#wrapper {
+	background-color:#FFFFFF;
+	width:100%;
+	margin:auto;
+	
+}
+
+#container {
+	background-color:#FFFFFF;
+	color:#000000;
+	width:100%;
+	height:100%;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
+}
+
+#p{
+	font-size: 2.5em;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	float: left;
+	font: bold;
+	color: #03450D;
+	position:absolute;
+	left: 190px;
+}
+
+
+#header{
+	position:fixed;
+	top:0px;
+	width:100%;
+	height:165px;
+	background-image:url(../images/clouds.jpg);
+	background-size: 100%;
+	padding-left:20px;
+	border-bottom: 8px solid #7A0E0F;
+}
+
+
+.header {
+	position:fixed;
+	top:0px;
+	width:100%;
+	height:165px;
+	background-image:url(../images/clouds.jpg);
+	background-size: 100%;
+	padding-left:20px;
+}
+
+
+#headerwrapper{
+	z-index:1000;
+	width: 100%;
+	display:block;
+	clear:both;
+	position:relative;
+}
+
+a.logo{
+	text-indent:-9999px;
+	background-repeat:no-repeat;
+	display:inline-block;
+	width: 150px;
+	height: 150px;
+	background-size: 150px 150px;
+	background-image: url(../images/h4hlogo.png);
+	background-position:center center;
+	float:left;
+	margin-right: 10px;
+}
+
+#splashlogo{
+	backgound-color: #BFBFBF;
+	padding: 5px 20px;
+	top: 0px;
+	left: 250px;
+	position: absolute;
+	text-align: center;
+	z-index: 4;
+	border-radius: 0 0px 20px 20px;
+	width:70%;
+	border-bottom: 8px solid #7A0E0F;
+	border-left: 8px solid #7A0E0F;
+	border-right:8px solid #7A0E0F;
+
+}
+
+/*End header section*/
+/*-----------------------------------------------------*/
+
+
+/*Utility bar*/
+.utility-bar{
+	background-color:#333;
+	border-bottom: 1px solid #ddd;
+	color: #ddd;
+	font-size: 12px;
+	font-size: 1.2rem;
+	padding: 10px 0;
+	padding: 1rem;
+	z-index:9999;
+}
+
+.utility-bar a{
+	color:#ccff33
+}
+
+.utility-bar a:hover {
+	text-decoration: underline;
+}
+
+.utility-bar-left,
+.utility-bar-right {
+	width: 50%;
+}
+
+.utility-bar-left p,
+.utility-bar-right p {
+	margin-bottom: 0;
+}
+
+.utility-bar-left {
+	float: left;
+}
+
+.utility-bar-right {
+	float: right;
+	text-align: right;
+}
+
+.utility-bar input[type="search"] {
+	background: inherit;
+	padding: 10px 0 0;
+	padding: 1.0rem 0 0;
+}
+/*End Utility bar*/
+/*----------------------------------------*/
+
+/* Center content*/
+#center {
+	margin:0;
+	padding:0;
+	background-color:#FFFFFF;
+	width:100%;
+	height:100%;
+}
+
+table{
+	width: 100%;
+	height:100%;
+}
+
+
+img.left {
+	background-image: url(../images/gradientpanelleft.jpg);
+	background-repeat: repeat-y;
+	width:300px;
+	height: 100%;
+	float:left;
+	background-attachment:fixed;
+}
+
+img.right {
+	background-image: url(../images/gradientpanelright.jpg);
+	background-repeat: repeat-y;
+	width: 300px;
+	height:100%;
+	float:right;
+	background-attachment: fixed;
+	
+}
+
+#content { 
+	height: 100%;
+	position:relative;
+	padding: 0;
+	margin:0 0 0 0;
+}
+
+table{
+	bottom:0px;
+	margin: -4px auto;
+}
+
+/* end center content*/
+/*---------------------------------------------------*/
+
+
+.floatleft{
+	float:left;
+	margin:0;
+	padding-left:0;
+}
+
+.leftfloat{
+	padding-left:299px;
+	margin:0;
+}
+
+
+
+.floatright{
+	float:right;
+	margin: 0;
+}
+
+.rightfloat{
+	padding-right:200px;
+}
+
+
+li{
+	list-style-type: none;
+}
+
+/*footer*/
+
+#footer{
+	height: 100px;
+	background: #BFBFBF;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	font-size: 1em;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana," sans-serif";
+	text-align: left;
+	color: #000000;
+	background-color: #BFBFBF;
+	clear: both;
+	border-top: 8px solid #7A0E0F;
+	
+}
+
+footer p{
+	line-height: 1.7em;
+	font-size: 1.3em;
+	padding:0 0 0 0;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana," sans-serif";
+	padding-bottom:0;
+}
+
+#footer a{
+	text-decoration: none;
+}
+
+#footer a:hover{
+	text-decoration:none;
+}
+
+a.footerlogo{
+	width: 100px;
+	height: 100px;
+	background-image: url(../images/h4hlogo.png);
+	background-size: 100px 100px;
+	text-indent:-9999px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: inline-block;
+	margin: 0px 20px 0px 100px;
+		
+	float: left;
+}
+
+.footerfloat{
+	padding-right:50px;
+}
+
+.outer{
+	background:#BFBFBF;
+	padding: 12px;
+}
+
+.wrap{
+	margin: 0 auto;
+}
+
+.sub{
+	padding: 12px;
+	width: 32%;
+	height: 100px;
+	background: #BFBFBF;
+	display: table-cell;
+	border-right: solid #8F8C8C 1px;
+}
+
+.sub:last-child{
+	border: 0px;
+}
+
+span.copyright{
+	color:#000000;
+	font-size: 10px;
+	line-height:12px;
+	padding: 0;
+	margin:0;
+	display:block;
+}
+
+.footerli{
+	font-size:.91em;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	
+}
+
+span.footerp{
+	margin:0;
+	line-height: 1.7em;
+	font-size: 1.3em;
+	padding:0 0 0 0;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana," sans-serif";
+	float:left;
+	color: #03450D;
+	
+}
+/*end footer*/
+/*--------------------------------------------------------------------------------------------------------*/
+
+
+/*social media button*/
+ul.flipboard{
+margin:0;
+padding:0;
+list-style:none;
+/* larger the value, the less pronounced the 3D effect */
+perspective: 10000px;
+}
+
+ul.flipboard li{
+display: inline-block;
+width: 60px; /* dimensions of buttons. Do not add padding/margins inside this rule */
+height: 60px;
+margin-right: 5px; /* spacing between buttons */
+background: #BFBFBF;
+font: bold 36px Arial; /* font size */
+text-transform: uppercase;
+text-align: center;
+cursor: pointer;
+float:right;
+}
+
+ul.flipboard li a{
+display:block;
+width: 100%;
+height: 100%;
+color: black;
+text-decoration: none;
+outline: none;
+/* CSS3 transition. Last value is pause before transition play */
+transition:all 300ms ease-out 0.1s;
+}
+
+ul.flipboard li a span{
+box-sizing: border-box;
+padding-top: 15px; /* Add top padding to "center" content */
+display:block;
+width: 100%;
+height: 100%;
+/* CSS3 transition. Last value is pause before transition play */
+transition:all 300ms ease-out 0.1s;
+}
+
+ul.flipboard li a img{
+border-width: 0;
+}
+
+ul.flipboard li:hover a{
+/* flip horizontally 180deg*/
+transform: rotateY(180deg);
+background: #cef1ff; /* background color of button onmouseover */
+border-radius:7px;
+box-shadow:0 0 5px #eee inset;
+}
+
+ul.flipboard li:hover a span{
+ /* flip horizontally 180deg*/
+transform: rotateY(180deg);
+}
+
+/*end footer*/
+
+
+/*Horizontal Menu*/
+.droplinetabs{
+    position: absolute;
+    background: transparent;
+    text-align: left; /* set to left, center, or right */
+    font: bold 16px 'Bitter', sans-serif; /* use google font */
+	left: 300px;
+	top: 130px;
+}
+
+.droplinetabs *{
+	box-sizing: border-box;
+}
+
+.droplinetabs a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-weight: bold;
+    padding: 12px;
+    position: relative;
+}
+
+.droplinetabs, .droplinetabs ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+	perspective: 1000px;
+	perspective-origin: 50% 0%;
+}
+
+/* Top Level LI style */
+.droplinetabs > li{
+}
+
+/* Top Level link style */
+.droplinetabs > li > a{
+    border-radius: 10px 10px 0 0;
+    background: #D9D8D8;
+    text-transform: uppercase;
+	border:solid #7A0E0F 2px;
+}
+
+/* Top Level link style on hover and when active */
+.droplinetabs li:hover > a {
+    background: white;
+}
+
+.droplinetabs li{
+    display: inline;
+}
+
+/* drop line ULs style */
+.droplinetabs ul{
+    background: #FFFFFF;
+    position: absolute;
+    left: -5000px;
+    width: 100%;
+    opacity: 0;
+    padding: 10px 0;
+    top: auto;
+    border: 1px solid #ddd;
+    box-shadow: 0 3px 5px #eee;
+    transform: rotateX(-70deg);
+    backface-visibility: hidden;
+    transform-origin: 50% 0;
+    transition: opacity .3s, transform .5s, visibility 0s .3s, left 0s .3s;
+}
+
+/* Reveal sub menu on hover */
+.droplinetabs li:hover > ul{
+    opacity: 1;
+    left: 0;
+    top: auto;
+    z-index: 1000;
+    transform: rotateX(0deg);
+    transition: opacity .5s, transform .5s;
+}
+
+.droplinetabs ul li{
+    display: inline;
+}
+
+/* Sub Levels link style on hover and when active */
+
+.droplinetabs ul li:hover > a {
+    background: #359496;
+    border-radius: 10px;
+}
+
+/* LIs with a sub UL style */
+.droplinetabs li > a {
+    /* add padding to accomodate arrow inside LIs */
+    padding-right: 30px;
+}
+
+/* LIs with NO sub UL style */
+.droplinetabs li > a:only-child {
+    /* undo padding for non submenu LIs */
+    padding-right: 15px;
+}
+
+
+/* Arrow for LIs with sub ULs */
+.droplinetabs li > a:after {
+    /* add arrow inside LIs */
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border: 5px solid transparent;
+    border-top-color: black;
+    top: 45%;
+    right: 8px;
+}
+
+
+/* LIs with NO sub UL pseudo class */
+.droplinetabs li > a:only-child:after {
+    /* undo arrow for non submenu LIs */
+    display: none;
+}
+
+/* ####### responsive layout CSS ####### */
+
+@media (max-width: 720px) {
+/* Top Level link style */
+    .droplinetabs > li > a{
+       border-radius: 0;
+       margin-top: 5px;
+    }
+    
+}
